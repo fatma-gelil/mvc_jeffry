@@ -7,7 +7,7 @@ $routes=[
     '/contact'=>'controllers/contact.php'
 ];
 function routerToController($uri,$routes){
-    if (array_key_exists($uri,$routes)){
+    if ( array_key_exists($uri,$routes)){
         require $routes[$uri];
     }else{
         abort(404);
