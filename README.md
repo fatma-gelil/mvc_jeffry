@@ -1,1 +1,1 @@
-this is just the beginning
+trying to practice what i learn from laracast php series 
